@@ -1,4 +1,6 @@
-Gang of Four Design Patterns
+# Design Pattern
+
+## Gang of Four Design Patterns
 
 The GoF Design Patterns are broken into three categories:
 1. Creational Patterns for the creation of objects, 
