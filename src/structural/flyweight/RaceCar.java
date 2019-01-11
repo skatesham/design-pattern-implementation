@@ -1,10 +1,12 @@
 package structural.flyweight;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
+@AllArgsConstructor
 public abstract class RaceCar {
 
 	/* Intrinsic state stored and shared in the Flyweight object */
@@ -17,12 +19,5 @@ public abstract class RaceCar {
 	 * Flyweight.
 	 */
 	public abstract void moveCar(int currentX, int currentY, int newX, int newY);
-
-	public RaceCar(final String name, final int speed, final int horsepower) {
-		super();
-		this.name = name;
-		this.speed = speed;
-		this.horsepower = horsepower;
-	}
-
+	
 }
