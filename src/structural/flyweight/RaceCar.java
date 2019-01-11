@@ -17,4 +17,12 @@ public abstract class RaceCar {
 	 * Flyweight.
 	 */
 	public abstract void moveCar(int currentX, int currentY, int newX, int newY);
+
+	public RaceCar(final String name, final int speed, final int horsepower) {
+		super();
+		this.name = name;
+		this.speed = speed;
+		this.horsepower = horsepower;
+	}
+
 }

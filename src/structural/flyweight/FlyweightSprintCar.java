@@ -1,8 +1,8 @@
 package structural.flyweight;
 
-public class FlyweightMidgetCar extends RaceCar {
+public class FlyweightSprintCar extends RaceCar {
 
-	public FlyweightMidgetCar(final String name, final int speed, final int horsepower) {
+	public FlyweightSprintCar(final String name, final int speed, final int horsepower) {
 		super(name, speed, horsepower);
 		num++;
 	}
