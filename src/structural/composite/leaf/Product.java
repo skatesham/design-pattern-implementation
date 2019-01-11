@@ -9,7 +9,7 @@ public class Product extends CatalogComponent {
 	private String name;
 	private double price;
 
-	public Product(String name, double price) {
+	public Product(final String name, final double price) {
 		super();
 		this.name = name;
 		this.price = price;

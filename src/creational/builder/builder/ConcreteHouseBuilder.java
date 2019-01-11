@@ -39,6 +39,7 @@ public class ConcreteHouseBuilder implements HouseBuilder {
 		System.out.println("ConcreteHouseBuilder: Furnishing complete...");
 	}
 
+	@Override
 	public House getHouse() {
 		System.out.println("ConcreteHouseBuilder: Concrete house complete...");
 		return this.house;

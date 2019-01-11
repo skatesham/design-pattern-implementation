@@ -2,7 +2,7 @@ package structural.bridge;
 
 public class TextMessage extends Message {
 
-	public TextMessage(MessageSender messageSender) {
+	public TextMessage(final MessageSender messageSender) {
 		super(messageSender);
 	}
 

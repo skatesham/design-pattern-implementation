@@ -22,7 +22,7 @@ public class BaseMessageFactory implements MessageFactory {
 	}
 
 	@Override
-	public Message createMessage(String type) {
+	public Message createMessage(final String type) {
 
 		Message message;
 		MessageSender messageSender;

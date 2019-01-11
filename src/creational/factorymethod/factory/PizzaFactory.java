@@ -9,7 +9,7 @@ import creational.factorymethod.product.VeggiePizza;
 public class PizzaFactory extends BasePizzaFactory {
 
 	@Override
-	public Pizza createPizza(String type) {
+	public Pizza createPizza(final String type) {
 		Pizza pizza;
 		switch (type.toLowerCase()) {
 		case "cheese":

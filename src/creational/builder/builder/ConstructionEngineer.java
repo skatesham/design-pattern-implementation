@@ -6,7 +6,7 @@ public class ConstructionEngineer {
 
 	HouseBuilder houseBuilder;
 
-	public ConstructionEngineer(HouseBuilder houseBuilder) {
+	public ConstructionEngineer(final HouseBuilder houseBuilder) {
 		super();
 		this.houseBuilder = houseBuilder;
 	}

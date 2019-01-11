@@ -7,7 +7,7 @@ public class RibbonBow extends FlowerBouquetsDecorator {
 
 	FlowerBouquet flowerBouquet;
 
-	public RibbonBow(FlowerBouquet flowerBouquet) {
+	public RibbonBow(final FlowerBouquet flowerBouquet) {
 		this.flowerBouquet = flowerBouquet;
 	}
 

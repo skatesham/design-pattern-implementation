@@ -2,7 +2,7 @@ package structural.bridge;
 
 public class EmailMessage extends Message {
 
-	public EmailMessage(MessageSender messageSender) {
+	public EmailMessage(final MessageSender messageSender) {
 		super(messageSender);
 	}
 

@@ -12,19 +12,19 @@ public class ProductCatalog extends CatalogComponent {
 
 	private ArrayList<CatalogComponent> items;
 
-	public ProductCatalog(String name) {
+	public ProductCatalog(final String name) {
 		super();
 		this.name = name;
 		items = new ArrayList<>();
 	}
 
 	@Override
-	public void add(CatalogComponent catalogComponent) {
+	public void add(final CatalogComponent catalogComponent) {
 		this.items.add(catalogComponent);
 	}
 
 	@Override
-	public void remove(CatalogComponent catalogComponent) {
+	public void remove(final CatalogComponent catalogComponent) {
 		this.items.remove(catalogComponent);
 	}
 

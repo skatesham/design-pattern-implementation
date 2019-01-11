@@ -7,7 +7,7 @@ public class PaperWrapper extends FlowerBouquetsDecorator {
 
 	FlowerBouquet flowerBouquet;
 
-	public PaperWrapper(FlowerBouquet flowerBouquet) {
+	public PaperWrapper(final FlowerBouquet flowerBouquet) {
 		this.flowerBouquet = flowerBouquet;
 	}
 

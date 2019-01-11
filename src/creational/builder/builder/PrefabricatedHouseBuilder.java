@@ -36,7 +36,8 @@ public class PrefabricatedHouseBuilder implements HouseBuilder {
         house.setFurnished(true);
         System.out.println("PrefabricatedHouseBuilder: Furnishing complete...");
     }
-    public House getHouse() {
+    @Override
+	public House getHouse() {
         System.out.println("PrefabricatedHouseBuilder: Prefabricated house complete...");
         return this.house;
     }

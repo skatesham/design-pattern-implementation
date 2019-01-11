@@ -11,7 +11,7 @@ import creational.abstractfactory.product.pizza.VeggiePizza;
 public class GourmetPizzaFactory extends BasePizzaFactory {
 
 	@Override
-	public Pizza createPizza(String type) {
+	public Pizza createPizza(final String type) {
 		Pizza pizza;
 		BaseToppingFactory baseToppingFactory = new GourmetToppingFactory();
 		switch (type.toLowerCase()) {

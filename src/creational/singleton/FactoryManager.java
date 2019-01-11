@@ -23,7 +23,7 @@ public class FactoryManager {
 		}
 	}
 	
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 		FactoryManager fm = FactoryManager.getInstance();
 		fm.startTracks();
 	}

@@ -7,7 +7,7 @@ public class Glitter extends FlowerBouquetsDecorator {
 
 	FlowerBouquet flowerBouquet;
 
-	public Glitter(FlowerBouquet flowerBouquet) {
+	public Glitter(final FlowerBouquet flowerBouquet) {
 		this.flowerBouquet = flowerBouquet;
 	}
 

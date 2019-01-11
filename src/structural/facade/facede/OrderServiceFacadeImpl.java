@@ -8,7 +8,7 @@ import structural.facade.ShippingService;
 public class OrderServiceFacadeImpl implements OrderServiceFacade {
 
 	@Override
-	public boolean placeOrder(int productId) {
+	public boolean placeOrder(final int productId) {
 		boolean orderfulFilled = false;
 		Product product = new Product(productId, "Produto Ordered");
 		

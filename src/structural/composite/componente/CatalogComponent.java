@@ -4,11 +4,11 @@ public abstract class CatalogComponent {
 
 	// Composite Methods:
 	
-	public void add(CatalogComponent catalogComponent) {
+	public void add(final CatalogComponent catalogComponent) {
 		throw new UnsupportedOperationException("Cannot add item to catalog.");
 	}
 
-	public void remove(CatalogComponent catalogComponent) {
+	public void remove(final CatalogComponent catalogComponent) {
 		throw new UnsupportedOperationException("Cannot remove item from catalog.");
 	}
 

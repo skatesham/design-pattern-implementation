@@ -4,7 +4,7 @@ public abstract class Message {
 
 	MessageSender messageSender;
 
-	public Message(MessageSender messageSender) {
+	public Message(final MessageSender messageSender) {
 		super();
 		this.messageSender = messageSender;
 	}

@@ -7,7 +7,7 @@ public class PepperoniPizza extends Pizza {
 
 	BaseToppingFactory baseToppingFactory;
 
-	public PepperoniPizza(BaseToppingFactory baseToppingFactory) {
+	public PepperoniPizza(final BaseToppingFactory baseToppingFactory) {
 		super();
 		this.baseToppingFactory = baseToppingFactory;
 	}
