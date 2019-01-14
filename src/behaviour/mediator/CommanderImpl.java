@@ -1,10 +1,10 @@
 package behaviour.mediator;
 
 public class CommanderImpl implements Commander {
-	
+
 	ArmedUnit soldierUnit, tankUnit;
 	boolean attackStatus = true;
-	
+
 	@Override
 	public void registerArmedUnits(final ArmedUnit soldierUnit, final ArmedUnit tankUnit) {
 		this.soldierUnit = soldierUnit;
@@ -26,7 +26,7 @@ public class CommanderImpl implements Commander {
 	@Override
 	public void startAttack(final ArmedUnit armedUnit) {
 		armedUnit.attack();
-		
+
 	}
 
 	@Override

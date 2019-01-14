@@ -18,7 +18,7 @@ public class PizzaFactoryTest {
 		Pizza veggie = pizzaFactory.createPizza("veggie");
 		assertTrue(true);
 	}
-	
+
 	@Test
 	public void testMakePizzasSicilian() {
 		BasePizzaFactory pizzaFactory = new SicilianPizzaFactory();

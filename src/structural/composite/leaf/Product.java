@@ -17,8 +17,7 @@ public class Product extends CatalogComponent {
 
 	@Override
 	public void print() {
-		System.out.println("Product name: "+name+" Price: "+price);
+		System.out.println("Product name: " + name + " Price: " + price);
 	}
 
-	
 }

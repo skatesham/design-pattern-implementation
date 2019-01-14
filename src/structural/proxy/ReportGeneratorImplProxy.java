@@ -29,8 +29,8 @@ public class ReportGeneratorImplProxy implements ReportGenerator {
 
 	@Override
 	public void generateSensitiveReport() {
-		if(acessRole.getRoleName().equals("Manager")) {
-			if(reportGeneratorImpl == null) {
+		if (acessRole.getRoleName().equals("Manager")) {
+			if (reportGeneratorImpl == null) {
 				reportGeneratorImpl = new ReportGeneratorImpl();
 			} else {
 				System.out.println("You are not authorized to acess sensitive reports.");

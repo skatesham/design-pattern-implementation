@@ -11,7 +11,7 @@ public class AuthorizedSignatory implements Cloneable {
 
 	private String name;
 	private String designation;
-	
+
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
 		return super.clone();

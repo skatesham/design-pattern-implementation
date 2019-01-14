@@ -6,16 +6,17 @@ import lombok.ToString;
 
 @Setter
 @Getter
-@ToString(callSuper=true)
+@ToString(callSuper = true)
 public class NDAgreement extends PrototypeCapableDocument {
 
 	private AuthorizedSignatory authorizedSignatory;
-	
+
 	@Override
 	public PrototypeCapableDocument cloneDocument() throws CloneNotSupportedException {
 
 		NDAgreement ndAgreement = (NDAgreement) super.clone();
-		AuthorizedSignatory clonedAuthorizedSignatory = (AuthorizedSignatory) ndAgreement.getAuthorizedSignatory().clone();
+		AuthorizedSignatory clonedAuthorizedSignatory = (AuthorizedSignatory) ndAgreement.getAuthorizedSignatory()
+				.clone();
 		ndAgreement.setAuthorizedSignatory(clonedAuthorizedSignatory);
 		return ndAgreement;
 

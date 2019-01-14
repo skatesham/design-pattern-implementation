@@ -19,5 +19,5 @@ public abstract class RaceCar {
 	 * Flyweight.
 	 */
 	public abstract void moveCar(int currentX, int currentY, int newX, int newY);
-	
+
 }

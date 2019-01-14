@@ -4,11 +4,11 @@ import creational.builder.product.House;
 
 public class ConcreteHouseBuilder implements HouseBuilder {
 	private House house;
-	
+
 	public ConcreteHouseBuilder() {
 		house = new House();
 	}
-	
+
 	@Override
 	public void buildFoundation() {
 		house.setFoundation("Concrete, brick, and stone");

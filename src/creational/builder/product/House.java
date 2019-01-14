@@ -12,5 +12,5 @@ public class House {
 	private String roof;
 	private boolean furnished;
 	private boolean painted;
-	
+
 }

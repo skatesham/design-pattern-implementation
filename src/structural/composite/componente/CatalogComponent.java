@@ -3,7 +3,7 @@ package structural.composite.componente;
 public abstract class CatalogComponent {
 
 	// Composite Methods:
-	
+
 	public void add(final CatalogComponent catalogComponent) {
 		throw new UnsupportedOperationException("Cannot add item to catalog.");
 	}
@@ -13,7 +13,7 @@ public abstract class CatalogComponent {
 	}
 
 	// Operation Methods:
-	
+
 	public String getName() {
 		throw new UnsupportedOperationException("Cannot return name.");
 	}

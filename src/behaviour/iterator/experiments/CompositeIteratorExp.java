@@ -2,6 +2,6 @@ package behaviour.iterator.experiments;
 
 public class CompositeIteratorExp {
 
-	//CompositeIterator
+	// CompositeIterator
 	// from spring to composite many iterators
 }

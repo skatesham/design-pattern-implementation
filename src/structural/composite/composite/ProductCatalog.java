@@ -30,7 +30,7 @@ public class ProductCatalog extends CatalogComponent {
 
 	@Override
 	public void print() {
-		System.out.println("\n>> Catalog: "+name);
+		System.out.println("\n>> Catalog: " + name);
 		for (CatalogComponent component : items) {
 			component.print();
 		}

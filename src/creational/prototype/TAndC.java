@@ -2,7 +2,7 @@ package creational.prototype;
 
 import lombok.ToString;
 
-@ToString(callSuper=true)
+@ToString(callSuper = true)
 public class TAndC extends PrototypeCapableDocument {
 
 	@Override

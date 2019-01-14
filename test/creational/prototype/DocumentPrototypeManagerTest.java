@@ -11,14 +11,13 @@ public class DocumentPrototypeManagerTest {
 		PrototypeCapableDocument tAndC = DocumentPrototypeManager.getClonedDocument("tandc");
 		tAndC.setVendorName("Susete Anselmo");
 		System.out.println(tAndC);
-		
+
 		PrototypeCapableDocument nda = DocumentPrototypeManager.getClonedDocument("nda");
 		nda.setVendorName("Pedro Jardel Pilla");
 		System.out.println(nda);
-		
+
 		assertTrue(true);
-		
+
 	}
-	
-	
+
 }

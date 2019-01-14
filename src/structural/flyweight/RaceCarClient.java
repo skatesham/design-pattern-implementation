@@ -15,8 +15,8 @@ public class RaceCarClient {
 	private int currentY = 0;
 
 	public void moveCar(final int newX, final int newY) {
-		
-		/*Car movement is handled by the flyweight object*/
+
+		/* Car movement is handled by the flyweight object */
 		raceCar.moveCar(currentX, currentY, newX, newY);
 	}
 

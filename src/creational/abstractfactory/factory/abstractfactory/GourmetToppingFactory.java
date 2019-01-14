@@ -5,7 +5,7 @@ import creational.abstractfactory.product.topping.Cheese;
 import creational.abstractfactory.product.topping.GoatCheese;
 import creational.abstractfactory.product.topping.Sauce;
 
-public class GourmetToppingFactory extends BaseToppingFactory{
+public class GourmetToppingFactory extends BaseToppingFactory {
 
 	@Override
 	public Cheese createCheese() {

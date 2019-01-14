@@ -27,7 +27,7 @@ public class DocumentPrototypeManager {
 		prototypes.put("nda", nda);
 
 	}
-	
+
 	public static PrototypeCapableDocument getClonedDocument(final String type) {
 		PrototypeCapableDocument clonedDoc = null;
 		try {

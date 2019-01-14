@@ -17,12 +17,12 @@ public class FactoryManager {
 	private int numTracks = 5;
 
 	public void startTracks() {
-		for(int i=0; i<numTracks; i++) {
+		for (int i = 0; i < numTracks; i++) {
 			Track t = new Track();
 			t.start();
 		}
 	}
-	
+
 	public static void main(final String[] args) {
 		FactoryManager fm = FactoryManager.getInstance();
 		fm.startTracks();

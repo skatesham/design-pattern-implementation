@@ -21,7 +21,8 @@ public class PizzaFactory extends BasePizzaFactory {
 		case "veggie":
 			pizza = new VeggiePizza();
 			break;
-		default: throw new IllegalArgumentException("No such pizza.");
+		default:
+			throw new IllegalArgumentException("No such pizza.");
 		}
 		pizza.addIngredients();
 		pizza.bakePizza();

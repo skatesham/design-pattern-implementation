@@ -24,7 +24,8 @@ public class GourmetPizzaFactory extends BasePizzaFactory {
 		case "veggie":
 			pizza = new VeggiePizza(baseToppingFactory);
 			break;
-		default: throw new IllegalArgumentException("No such pizza.");
+		default:
+			throw new IllegalArgumentException("No such pizza.");
 		}
 		pizza.addIngredients();
 		pizza.bakePizza();

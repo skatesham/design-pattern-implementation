@@ -20,23 +20,23 @@ public class ConstructionEngineerTest {
 		ConstructionEngineer engineer;
 
 		houseBuilder = new ConcreteHouseBuilder();
-		
+
 		engineer = new ConstructionEngineer(houseBuilder);
 		house = engineer.constructHouse();
-		
+
 		System.out.println("House is: " + house);
 		System.out.println();
-		
+
 		houseBuilder = new PrefabricatedHouseBuilder();
-		
+
 		engineer = new ConstructionEngineer(houseBuilder);
 		house = engineer.constructHouse();
-		
+
 		System.out.println("House is: " + house);
 		System.out.println();
-		
+
 		assertTrue(true);
-		
+
 	}
 
 }

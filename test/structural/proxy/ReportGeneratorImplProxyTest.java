@@ -10,13 +10,13 @@ public class ReportGeneratorImplProxyTest {
 
 	@Test
 	public void generateReportTest() {
-		Role acessRole = new Role("Manager", Arrays.asList()) ;
+		Role acessRole = new Role("Manager", Arrays.asList());
 		ReportGenerator proxy = new ReportGeneratorImplProxy(acessRole);
 		proxy.displayReportTemplate("PDF", 150);
 		proxy.generateComplexReport("PDF", 150);
 		proxy.generateSensitiveReport();
-		
-		acessRole = new Role("Admin", Arrays.asList()) ;
+
+		acessRole = new Role("Admin", Arrays.asList());
 		proxy = new ReportGeneratorImplProxy(acessRole);
 		proxy.generateSensitiveReport();
 	}
