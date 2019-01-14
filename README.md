@@ -7,6 +7,7 @@ The GoF Design Patterns are broken into three categories:
 2. Structural Patterns  provide for a relationship between objects and finally, 
 3. Behavioral Patterns help define how objects interact.
 
+![alt text](https://www.devmedia.com.br/imagens/articles/169202/estrutura_design_pattern.png)
 
 Creational Design Patterns
 
